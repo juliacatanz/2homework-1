@@ -16,7 +16,7 @@ let enemy = game.createSprite(randint(0, 5), randint(0, 5))
 player = game.createSprite(0, 0)
 basic.forever(function () {
     if (player.isTouching(enemy)) {
-        basic.showIcon(IconNames.Heart)
+        basic.showIcon(IconNames.Happy)
         game.addScore(1)
     }
 })
