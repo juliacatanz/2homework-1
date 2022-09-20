@@ -18,5 +18,6 @@ basic.forever(function () {
     if (player.isTouching(enemy)) {
         basic.showIcon(IconNames.Happy)
         game.addScore(1)
+        control.reset()
     }
 })
